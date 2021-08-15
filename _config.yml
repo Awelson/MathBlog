@@ -21,8 +21,8 @@
 title: Maths Stuff
 email: your-email@example.com
 description: Hello!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "MathBlog" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "MathBlog" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
 
