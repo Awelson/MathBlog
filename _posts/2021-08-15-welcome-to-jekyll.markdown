@@ -7,7 +7,7 @@ published: true
 ---
 {% include katex.html %}
 
-The Archemedean Property states that for any real number, \\(r\\), there exists a natural number \\(n\\) such that \\(x<n)\\. Although this result is most certainly true and simple, it can be derived from the basic axioms which govern the set of real numbers, \\(\mathbb{R}\\).
+The Archemedean Property states that for any real number, \\(r\\), there exists a natural number \\(n\\) such that \\(x<n\\). Although this result is most certainly true and simple, it can be derived from the basic axioms which govern the set of real numbers, \\( \mathbb{R} \\).
 
 Jekyll requires blog post files to be named according to the following format:
 
