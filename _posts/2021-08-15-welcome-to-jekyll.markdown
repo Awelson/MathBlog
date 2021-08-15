@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2021-08-15 15:56:07 +0700
+title: 'Chapter 1.1, The Archemedean Property'
+date: '2021-08-15 15:56:07 +0700'
 categories: jekyll update
+published: true
 ---
 {% include katex.html %}
 \\[5-2\\]
