@@ -21,4 +21,4 @@ For example, if \\( A=\{2,4,7\} \\), then \\( 8 \\) is an upper bound of \\( A \
 
 It is believable to think that \\( 7 \\) is the smallest possible upper bound we can find for the set \\( A \\), in which case, we would say that \\( 7 \\) is the least upper bound of \\( A \\). We shall define this more formally:
 
-> Definition 1.2 \\( \ x\in \mathbb{R} \\) is said to be the least upper bound of a subset \\( A\subseteq\mathbb{R} \\) if \\(x\)) is an upper bound of \\( A \\) **and** \\( x<c \\) for all other upper bounds \\(c\\) of \\( A \\).
+> Definition 1.2 \\( \ x\in \mathbb{R} \\) is said to be the least upper bound of a subset \\( A\subseteq\mathbb{R} \\) if \\(x \\) is an upper bound of \\(A\\) **and** \\( x<c \\) for all other upper bounds \\(c\\) of \\( A \\).
