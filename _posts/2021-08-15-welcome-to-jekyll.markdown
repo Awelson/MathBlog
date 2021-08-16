@@ -24,7 +24,7 @@ It is believable to think that \\( 7 \\) is the smallest possible upper bound we
 
 - It is clear from the definition that given any subset \\( A\subseteq \mathbb{R} \\), the least upper bound of \\( A \\) is unique. Even if this result is obvious, I encourage you to prove it yourself!
 
-Given a subset \\( A\subseteq \mathbb{R} \\), it is easy to guess what it's least upper bound should be, for example, we may guess the number \\( x\in \mathbb{R} \\), however, actually proving that \\( x=\text{sup }A \\) will prove to be more difficult. We have to show two things:
+Given a subset \\( A\subseteq \mathbb{R} \\), it is easy to guess what it's least upper bound should be, for example, we may guess the number \\( x\in \mathbb{R} \\), however, actually proving that \\( x=\text{sup }A \\) will prove to be more difficult. We have two things to show:
 
 1. Show that \\( x \\) is an upper bound of \\( A \\)
 2. Show that \\( x\leq c \\) for any upper bound \\( c \\) of \\( A \\)
