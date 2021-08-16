@@ -69,6 +69,7 @@ For example, \\( 1 \\) is a lower bound of \\( \\{2,4,7\\} \\). It makes no sens
 
 - What is the greatest lower bound of the set from the example above?
 - Write a formal definition for the greatest lower bound, just like we did in Definition 1.1.2 for the least upper bound. Note: we use the symbol \\( \text{inf }A \\) to denote the greatest lower bound of a set \\( A \\).
+- Create a two step process (just like we did for the least upper bound) to prove that a number is indeed the greatest lower bound.
 - What do you think it should mean for a set to be bounded/unbounded below?
 - Provide an example of a set that is unbounded below, does this set have a greatest lower bound?
 - If a set \\( A \\) is bounded below, does \\( \text{inf }A \\) exist? The answer is yes!
@@ -79,6 +80,8 @@ A relationship between least upper bound and greatest lower bound can be describ
 
 > Theorem 1.1.7 Let \\( A\subseteq \mathbb{R} \\) be a bounded set. If \\(B=\\{-a \ \vert \ a\in A\\} \\), then \\( \text{inf }B=-\text{sup }A \\).
 
-Proof.
+Proof. Set \\( x=\text{sup }A \\), then we need to show that \\( -x \\) is the greatest lower bound of \\( B \\). First, we show that \\( -x \\) is a lower bound of \\( B \\): We know that \\( a\leq x \\) for all \\( a\in A \\), multiplying this inequality by negative one gives \\( -x\leq -a \\) for all \\( a\in A \\), i.e, \\( -x \\) is a lower bound of \\( B \\).
+
+Next, we show that \\( c\leq -x \\) for all lower bounds \\( c \\) of \\( B \\). Let \\( c \\) be a lower bound of \\( B \\), this means that \\( c\leq -a \\) for all \\( a\in A \\), multiplying by negative one gives \\( a\leq -c \\) for all \\( a\in A \\), i.e, \\( -c \\) is an upper bound of \\( A \\). Because \\( x=\text{sup }A \\), we have \\( x\leq -c \\), multiplying by negative one again gives \\( c\leq -x \\) as desired. \\( \Box \\)
 
 
