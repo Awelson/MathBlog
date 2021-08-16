@@ -8,7 +8,7 @@ permalink: '/:categories/1'
 ---
 {% include katex.html %}
 
-The Archemedean Property states that for any real number, \\(r\\), there exists a natural number \\(n\\) such that \\(x<n\\). Although this result is most certainly true and simple, it can be derived from the basic axioms which govern the set of real numbers, \\( \mathbb{R} \\).
+The Archemedean property states that for any real number, \\(r\\), there exists a natural number \\(n\\) such that \\(x<n\\). Although this result is most certainly true and simple, it can be derived from the basic axioms which govern the set of real numbers, \\( \mathbb{R} \\).
 
 One of the axioms involved is known as the least upper bound property, it states that any subset of \\( \mathbb{R} \\) that is bounded above has a least upper bound. Some of these words may seem unfamiliar to you so we shall define them.
 
@@ -41,7 +41,7 @@ Case 1: To show that \\( c \\) is not an upper bound of \\( A \\), we will show 
 
 Case 2: This is really easy, so I will have you fill in the details yourself.
 
-- Question: Using more or less the same argument, show that \\( \text{sup }\[0,1\]=1 \\)
+- Using more or less the same argument, show that \\( \text{sup }\[0,1\]=1 \\)
 
 Before moving on, let us answer an important question: do all subsets of \\( \mathbb{R} \\) have an upper bound? Try to answer this question and provide your reasonings. 
 
@@ -57,6 +57,28 @@ We have seen examples of sets that are unbounded above (\\( \mathbb{R} \\)) and 
 
 But what about its counterpart: If a subset \\( A\subseteq \mathbb{R} \\) is bounded above, then \\( \text{sup }A \\) exists.
 
-Is this statement true? Can we prove it? If you have a good memory, you should remember from the beginning of this blog post
+Is this statement true? Can we prove it? If you have a good memory, you should remember from the beginning of this blog post that this statement is an axiom. It is a fundamental property of the real numbers, and therefore, need not be proven. Remember that the concept of real numbers are something we humans constructed for ourselves, and conveniently, we constructed the real numbers so that the least upper bound property holds true.
+
+As we shall see, the least upper bound property can be used to prove the Archemedean property. Before getting to that, let's talk about the counterpart of upper bounds, lower bounds.
+
+### Lower Bounds
+
+> Definition 1.1.5 \\( \ x\in \mathbb{R}\\) is said to be a lower bound of a subset \\( A\subseteq\mathbb{R} \\) if for all \\( a\in A\\), we have \\( x\leq a\\).
+
+For example, \\( 1 \\) is a lower bound of \\( \\{2,4,7\\} \\). It makes no sense to ask what the lowest lower bound is, so instead, we ask what the greatest lower bound is. 
+
+- What is the greatest lower bound of the set from the example above?
+- Write a formal definition for the greatest lower bound, just like we did in Definition 1.1.2 for the least upper bound. Note: we use the symbol\\( \text{inf }A \\) to denote the greatest lower bound of a set \\( A \\).
+- What do you think it should mean for a set to be bounded/unbounded below?
+- Provide an example of a set that is unbounded below, does this set have a greatest lower bound?
+- If a set \\( A \\) is bounded below, does \\( \text{inf }A \\) exist? The answer is yes!
+
+> Definition 1.1.6 A subset \\(A \subseteq \mathbb{R} \\) is said to be bounded if it is both bounded above and bounded below. It is clear that a bounded set has both a least upper bound and a greatest lower bound.
+
+A relationship between least upper bound and greatest lower bound of a bounded set \\( A \\) goes as follows:
+
+> Theorem 1.1.7 Set \\(B=\\{-a \ \vert \ a\in A\\} \\), then \\( \text{inf }B=-\text{sup }A \\)
+
+Proof.
 
 
