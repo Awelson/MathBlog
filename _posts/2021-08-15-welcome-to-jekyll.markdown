@@ -69,14 +69,14 @@ As we shall see, the least upper bound property can be used to prove the Archeme
 
 For example, \\( 1 \\) is a lower bound of \\( \\{2,4,7\\} \\). It makes no sense to ask what the lowest lower bound is, so instead, we ask what the greatest lower bound is. 
 
-- What is the greatest lower bound of the set from the example above?
-- Write a formal definition for the greatest lower bound, just like we did in Definition 1.1.2 for the least upper bound. Note: we use the symbol \\( \text{inf }A \\) to denote the greatest lower bound of a set \\( A \\).
-- Create a two step process (just like we did for the least upper bound) to prove that a number is indeed the greatest lower bound.
+- What is the greatest lower bound of the set from the above example?
+- Write a formal definition for the greatest lower bound, just like we did in Definition 1.1.2 for the least upper bound. Note: we write \\( \text{inf }A \\) to denote the greatest lower bound of a set \\( A \\).
+- What are two things that we need to show to make sure that a number is indeed the greatest lower bound?
 - What do you think it should mean for a set to be bounded/unbounded below?
 - Provide an example of a set that is unbounded below, does this set have a greatest lower bound?
-- If a set \\( A \\) is bounded below, does \\( \text{inf }A \\) exist? The answer is yes!
+- If a set \\( A \\) is bounded below, does \\( \text{inf }A \\) exist? In other words, does the least upper bound property translate over to greatest lower bounds as well? The answer is yes!
 
-> Definition 1.1.6 A subset \\(A \subseteq \mathbb{R} \\) is said to be bounded if it is both bounded above and bounded below. It is clear that a bounded set has both a least upper bound and a greatest lower bound.
+> Definition 1.1.6 A subset \\(A \subseteq \mathbb{R} \\) is said to be bounded if it is both bounded above and bounded below. It is clear that a bounded set have both a least upper bound and a greatest lower bound.
 
 A relationship between least upper bound and greatest lower bound can be described as follows:
 
