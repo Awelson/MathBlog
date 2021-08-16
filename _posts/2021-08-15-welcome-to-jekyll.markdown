@@ -51,7 +51,7 @@ The answer is no, obviously.
 
 > Definition 1.1.3 A subset \\( A\subseteq \mathbb{R} \\) is said to be bounded above if an upper bound for \\( A \\) exists. Conversely, if an upper bound for \\( A \\) does not exist, then \\( A \\) is said to be unbounded above.
 
-We have seen examples of sets that are unbounded above, \\( \mathbb{R} \\) and sets that are bounded above, \\( \ \\{2,4,7\\} \\). The following should make sense:
+We have seen examples of sets that are unbounded above, \\( \mathbb{R} \\), and sets that are bounded above, \\( \ \\{2,4,7\\} \\). The following should make sense:
 
 > Theorem 1.1.4 If a subset \\( A\subseteq \mathbb{R} \\) is unbounded above, then \\( \text{sup }A \\) does not exist.
 
