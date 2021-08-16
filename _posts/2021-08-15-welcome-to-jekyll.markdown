@@ -16,9 +16,8 @@ One of the axioms involved is known as the least upper bound property, it states
 
 For example, if \\( A=\{2,4,7\} \\), then \\( 8 \\) is an upper bound of \\( A \\) because \\( 8 \\) is greater than all the points contained within the set \\( A \\).
 
-- List down some other upper bounds of \\( A \\), can \\( 7 \\) be put in this list?
+> :bulb: List down some other upper bounds of \\( A \\), can \\( 7 \\) be put in this list?
 
 It is believable to think that \\( 7 \\) is the smallest possible upper bound we can find for the set \\( A \\), in which case, we would say that \\( 7 \\) is the least upper bound of \\( A \\). We shall define this more formally:
 
-> Definition 1.2 \\( \ x\in \mathbb{R} \\) is said to be the least upper bound of a subset \\( A\subseteq\mathbb{R} \\) if in addition to being an upper bound of \\(A\\), it also satisfies \\( x<c \\) for all other upper bounds \\(c\\) of \\( A \\).
-
+> Definition 1.2 \\( \ x\in \mathbb{R} \\) is said to be the least upper bound of a subset \\( A\subseteq\mathbb{R} \\) if in addition to being an upper bound of \\(A\\), it also satisfies \\( x\leq c \\) for any upper bound \\(c\\) of \\( A \\).
