@@ -51,7 +51,7 @@ The answer is no, obviously.
 
 > Definition 1.1.3 A subset \\( A\subseteq \mathbb{R} \\) is said to be bounded above if an upper bound for \\( A \\) exists. Conversely, if an upper bound for \\( A \\) does not exist, then \\( A \\) is said to be unbounded above.
 
-We have seen examples of sets that are unbounded above (\\( \mathbb{R} \\)) and sets that are bounded above   (\\( \\{2,4,7\\} \\)). The following should make sense:
+We have seen examples of sets that are unbounded above, \\( \mathbb{R} \\) and sets that are bounded above, \\( \ \\{2,4,7\\} \\). The following should make sense:
 
 > Theorem 1.1.4 If a subset \\( A\subseteq \mathbb{R} \\) is unbounded above, then \\( \text{sup }A \\) does not exist.
 
@@ -68,7 +68,7 @@ As we shall see, the least upper bound property can be used to prove the Archeme
 For example, \\( 1 \\) is a lower bound of \\( \\{2,4,7\\} \\). It makes no sense to ask what the lowest lower bound is, so instead, we ask what the greatest lower bound is. 
 
 - What is the greatest lower bound of the set from the example above?
-- Write a formal definition for the greatest lower bound, just like we did in Definition 1.1.2 for the least upper bound. Note: we use the symbol\\( \text{inf }A \\) to denote the greatest lower bound of a set \\( A \\).
+- Write a formal definition for the greatest lower bound, just like we did in Definition 1.1.2 for the least upper bound. Note: we use the symbol \\( \text{inf }A \\) to denote the greatest lower bound of a set \\( A \\).
 - What do you think it should mean for a set to be bounded/unbounded below?
 - Provide an example of a set that is unbounded below, does this set have a greatest lower bound?
 - If a set \\( A \\) is bounded below, does \\( \text{inf }A \\) exist? The answer is yes!
