@@ -29,4 +29,4 @@ Given a subset \\( A\subseteq \mathbb{R} \\), it is easy to guess what it's leas
 1. Show that \\( x \\) is an upper bound of \\( A \\)
 2. Show that \\( x\leq c \\) for any upper bound \\( c \\) of \\( A \\)
 
-Step 1 is super easy. Step 2 is equivalent to showing that there is no upper bound less than \\( x \\), i.e, we need to show that \\( \ c<x \ \Longrightarrow \ c \\) is not an upper bound of \\( A \\). Reformulating step 2 this way will make things much easier (trust me).
+Step 1 is super easy. Step 2 is equivalent to showing that there is no upper bound less than \\( x \\), i.e, we need to show that \\( \ \ c<x \ \Longrightarrow \ c \\) is not an upper bound of \\( A \\). Reformulating step 2 this way will make things much easier (trust me).
