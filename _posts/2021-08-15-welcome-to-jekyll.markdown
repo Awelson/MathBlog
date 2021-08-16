@@ -39,4 +39,10 @@ Case 1: To show that \\( c \\) is not an upper bound of \\( A \\), we will show 
 
 \\[ -1<c \ \Longrightarrow \ 0<c+1 \ \Longrightarrow \  0<\frac{c+1}{2}=a \\]
 
+Case 2: This is really easy, so I will have you fill in the details yourself.
+
+Before moving on, let us answer an important question: do all subsets of \\( \mathbb{R} \\) have an upper bound? Try to answer this question and provide your reasonings. 
+
+The correct answer is no, for example, the set \\( \[0,\infty) \\) has no upper bounds.  
+
 
