@@ -29,6 +29,8 @@ Given a subset \\( A\subseteq \mathbb{R} \\), it is easy to guess what it's leas
 1. Show that \\( x \\) is an upper bound of \\( A \\)
 2. Show that \\( x\leq c \\) for any upper bound \\( c \\) of \\( A \\)
 
-Step 1 is super easy. Step 2 is equivalent to showing that there is no upper bound less than \\( x \\), i.e, we need to show that \\( \ \ c<x \ \Longrightarrow \ "c \\) is not an upper bound of \\( A" \\). Reformulating step 2 this way will make things much easier (trust me).
+Step 1 is super easy. Step 2 is equivalent to showing that there is no upper bound less than \\( x \\), i.e, we need to show that \\( \ \ c<x \ \Longrightarrow \ "c \\) is not an upper bound of \\( A" \\) (the arrow means "implies"). Reformulating step 2 this way will make things much easier (trust me).
 
 As an example, we shall prove that given \\( A=\\{2,4,7\\} \\), we have \\( \text{sup }A=7 \\). The first step (showing that 7 is an upper bound of \\( A \\)) is immediate. For the second step, assume that \\( c<7 \\). In order for \\( c \\) to be an upper bound of \\( A \\), it needs to be greater than or equal to \\( 7 \\), this however, is not possible because \\( c<7 \\), thus, \\( c \\) cannot be an upper bound of \\( A \\). This councludes our proof that \\( \text{sup }A=7 \\).
+
+A more complicated example would be \\( A=(0,1) \\)
