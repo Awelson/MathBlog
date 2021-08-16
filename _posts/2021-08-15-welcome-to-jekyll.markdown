@@ -33,4 +33,13 @@ Step 1 is super easy. Step 2 is equivalent to showing that there is no upper bou
 
 As an example, we shall prove that given \\( A=\\{2,4,7\\} \\), we have \\( \text{sup }A=7 \\). The first step (showing that 7 is an upper bound of \\( A \\)) is immediate. For the second step, assume that \\( c<7 \\). In order for \\( c \\) to be an upper bound of \\( A \\), it needs to be greater than or equal to \\( 7 \\), this however, is not possible because \\( c<7 \\), thus, \\( c \\) cannot be an upper bound of \\( A \\). This councludes our proof that \\( \text{sup }A=7 \\).
 
-A more complicated example would be \\( A=(0,1) \\)
+A more complicated example would be \\( A=(0,1) \\). A reasonable guess would be \\( \text{sup }A=1 \\). We shall skip to the second step. It is beneficial to split cases. Case 1: \\( -1<c<1 \\). Case 2: \\( c\leq -1 \\). In either case, we need to show that \\( c \\) is not an upper bound of \\( A \\).
+
+Case 1: To show that \\( c \\) is not an upper bound of \\( A \\), we will show that there exists an \\( a\in A \\) such that \\( c<a \\) (why does this imply that \\( c \\) is not an upper bound of \\( A \\)?) We propose letting \\( a \\) be the midpoint between \\(c \\) and \\( 1 \\), i.e, \\( a=\frac{c+1}{2} \\). Notice that \\( c<a \\) is immediate, further, since we already know that \\( a<1 \\), it suffices to show that \\( 0<a \\) in order to show that \\( a\in A \\). This is easy,
+
+\\[ \begin{align*}
+-1&<c \\
+0&<c+1 \\
+0&<\frac{c+1}{2}=a
+\end{align*} \\]
+
