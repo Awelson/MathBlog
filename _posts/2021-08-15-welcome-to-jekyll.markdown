@@ -16,7 +16,7 @@ One of the axioms involved is known as the least upper bound property, it states
 
 For example, if \\( A=\{2,4,7\} \\), then \\( 8 \\) is an upper bound of \\( A \\) because \\( 8 \\) is greater than all the points contained within the set \\( A \\).
 
-\\( \fbox{\text{List down some other upper bounds of } A, \text{ can }7 \text{ be put in this list?}} \\)
+\\( \begin{center}\fbox{\text{List down some other upper bounds of } A, \text{ can }7 \text{ be put in this list?}} \end{center} \\)
 
 It is believable to think that \\( 7 \\) is the smallest possible upper bound we can find for the set \\( A \\), in which case, we would say that \\( 7 \\) is the least upper bound of \\( A \\). We shall define this more formally:
 
