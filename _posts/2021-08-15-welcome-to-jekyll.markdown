@@ -14,7 +14,7 @@ One of the axioms involved is known as the least upper bound property, it states
 
 > Definition 1.1 \\( \ x\in \mathbb{R}\\) is said to be an upper bound of a subset \\( A\subseteq\mathbb{R} \\) if for all \\( a\in A\\), we have \\( a\leq x\\).
 
-For example, if \\( A=\lbrace 2,4,7 \rbrace \\), then \\( 8 \\) is an upper bound of \\( A \\) because \\( 8 \\) is greater than all the points contained within the set \\( A \\).
+For example, if \\( A=\lbrace 2,4,7 \rbrace \\), then \\( 8 \\) is an upper bound of \\( A \\) because \\( 8 \\) is greater than or equal to all the points contained within the set \\( A \\).
 
 \\[ \fbox{\text{List down some other upper bounds of } A, \text{ can }7 \text{ be put in this list?}} \\]
 
@@ -31,4 +31,4 @@ Given a subset \\( A\subseteq \mathbb{R} \\), it is easy to guess what it's leas
 
 Step 1 is super easy. Step 2 is equivalent to showing that there is no upper bound less than \\( x \\), i.e, we need to show that \\( \ \ c<x \ \Longrightarrow \ "c \\) is not an upper bound of \\( A" \\). Reformulating step 2 this way will make things much easier (trust me).
 
-\\( \\{2,3\\} \\)
+As an example, we shall prove that given \\( A=\\{2,4,7\\} \\), we have \\( \text{sup }A=7 \\). The first step (showing that 7 is an upper bound of \\( A \\)) is immediate. For the second step, let \\( c<7 \\) be arbitrary. In order for \\( c \\) to be an upper bound of \\( A \\), it neads to be greater than or equal to all the points in the set \\( A \\), in particular, it needs to be greater than or equal to 7, this however, is not true because \\( c<7 \\), therefore, we have shown that \\( c \\) cannot be an upper bound of \\( A \\). This councludes our proof that \\( \text{sup }A=7 \\).
