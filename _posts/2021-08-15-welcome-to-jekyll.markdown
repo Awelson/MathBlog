@@ -18,10 +18,19 @@ For example, if \\( A=\{2,4,7\} \\), then \\( 8 \\) is an upper bound of \\( A \
 
 \\[ \fbox{\text{List down some other upper bounds of } A, \text{ can }7 \text{ be put in this list?}} \\]
 
-It is believable to think that \\( 7 \\) is the smallest possible upper bound we can find for the set \\( A \\), in which case, we would say that \\( 7 \\) is the least upper bound of \\( A \\). We shall define this more formally:
+It is believable to think that \\( 7 \\) is the smallest possible upper bound we can find for the set \\( A \\), in which case, we would say that \\( 7 \\) is the least upper bound of \\( A \\). We shall define this more formally below,
 
 > Definition 1.2 \\( \ x\in \mathbb{R} \\) is said to be the least upper bound of a subset \\( A\subseteq\mathbb{R} \\) if in addition to being an upper bound of \\(A\\), it also satisfies \\( x\leq c \\) for any upper bound \\(c\\) of \\( A \\). We will sometimes denote the least upper bound of \\( A \\) with \\( \text{sup }A \\).
 
-\\[ \fbox{\text{It is clear that given a subset }A\subseteq \mathbb{R},\text{ the least upper bound of }A\text{ is unique, even if this result is obvious, I encourage you to prove it on your own.}} \\]
+\\[ \fbox{\text{It is clear from the definition that given any subset }A\subseteq \mathbb{R},\text{ the least upper bound of }A\text{ is unique, even if this result is obvious, I encourage you to prove it on your own.}} \\]
+
+Given a subset \\( A\subseteq \mathbb{R} \\), it is easy to guess what it's least upper bound should be, for example, we may guess the number \\( x\in \mathbb{R} \\), however, actually proving that \\( x=\text{sup }A \\) will prove to be more difficult. We have to show two things:
+
+1. Show that \\( x \\) is an upper bound of \\( A \\)
+2. Show that \\( x\leq c \\) for any upper bound \\( c \\) of \\( A \\)
+
+Step 2 is equivalent to showing that there is no upper bound that is less than \\( x \\), i.e, we need to show that \\( c<x \ \Longrightarrow \ x \text{ is not an upper bound of }A \\). Reformulating step 2 this way will make things much easier (trust me).
+
+
 
 
