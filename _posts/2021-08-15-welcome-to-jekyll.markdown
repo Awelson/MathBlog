@@ -12,7 +12,7 @@ The Archemedean Property states that for any real number, \\(r\\), there exists 
 
 One of the axioms involved is known as the least upper bound property, it states that any subset of \\( \mathbb{R} \\) that is bounded above has a least upper bound. Some of these words may seem unfamiliar to you so we shall define them.
 
-> Definition 1.1 \\( \ x\in \mathbb{R}\\) is said to be an upper bound of a subset \\( A\subseteq\mathbb{R} \\) if for all \\( a\in A\\), we have \\( a\leq x\\).
+> Definition 1.1.1 \\( \ x\in \mathbb{R}\\) is said to be an upper bound of a subset \\( A\subseteq\mathbb{R} \\) if for all \\( a\in A\\), we have \\( a\leq x\\).
 
 For example, if \\( A=\lbrace 2,4,7 \rbrace \\), then \\( 8 \\) is an upper bound of \\( A \\) because \\( 8 \\) is greater than or equal to all the points contained within the set \\( A \\).
 
@@ -20,7 +20,7 @@ For example, if \\( A=\lbrace 2,4,7 \rbrace \\), then \\( 8 \\) is an upper boun
 
 It is believable to think that \\( 7 \\) is the smallest possible upper bound we can find for the set \\( A \\), in which case, we would say that \\( 7 \\) is the least upper bound of \\( A \\). We shall define this more formally below,
 
-> Definition 1.2 \\( \ x\in \mathbb{R} \\) is said to be the least upper bound of a subset \\( A\subseteq\mathbb{R} \\) if in addition to being an upper bound of \\(A\\), it also satisfies \\( x\leq c \\) for any upper bound \\(c\\) of \\( A \\). We will sometimes denote the least upper bound of \\( A \\) with \\( \text{sup }A \\).
+> Definition 1.1.2 \\( \ x\in \mathbb{R} \\) is said to be the least upper bound of a subset \\( A\subseteq\mathbb{R} \\) if in addition to being an upper bound of \\(A\\), it also satisfies \\( x\leq c \\) for any upper bound \\(c\\) of \\( A \\). We will sometimes denote the least upper bound of \\( A \\) with \\( \text{sup }A \\).
 
 - It is clear from the definition that given any subset \\( A\subseteq \mathbb{R} \\), the least upper bound of \\( A \\) is unique. Even if this result is obvious, I encourage you to prove it yourself!
 
@@ -41,8 +41,22 @@ Case 1: To show that \\( c \\) is not an upper bound of \\( A \\), we will show 
 
 Case 2: This is really easy, so I will have you fill in the details yourself.
 
+- Question: Using more or less the same argument, show that \\( \text{sup }\[0,1\]=1 \\)
+
 Before moving on, let us answer an important question: do all subsets of \\( \mathbb{R} \\) have an upper bound? Try to answer this question and provide your reasonings. 
 
-The correct answer is no, for example, the set \\( \[0,\infty) \\) has no upper bounds.  
+The correct answer is no, for example, the subset \\( \mathbb{R}\subeteq \mathbb{R} \\) itself has no upper bounds. Suppose \\( c\in \mathbb{R} \\) is an upper bound of \\( \mathbb{R} \\), then \\( c<c+1 \\) but \\( c+1\in \mathbb{R} \\), this contradicts the fact that \\( c \\) is an upper bound of \\( \mathbb{R} \\). Next question: if \\( \mathbb{R} \\) has no upper bounds, does it have a least upper bound, in other words, does \\( \text{sup }\mathbb{R} \\) exist?
+
+The answer is no, obviously.
+
+> Definition 1.1.3 A subset \\( A\subseteq \mathbb{R} \\) is said to be bounded above if an upper bound for \\( A \\) exists. Conversely, if an upper bound for \\( A \\) does not exist, then \\( A \\) is said to be unbounded above.
+
+We have seen examples of sets that are unbounded above (\\( \mathbb{R} \\)) and sets that are bounded above (\\( \\{2,4,7\\} \\)). The following should make sense:
+
+> Theorem 1.1.4 If a subset \\( A\subseteq \mathbb{R} \\) is unbounded above, then \\( \text{sup }A \\) does not exist.
+
+But what about its counterpart: If a subset \\( A\subseteq \mathbb{R} \\) is bounded above, then \\( \text{sup }A \\) exists.
+
+Is this statement true? Can we prove it? If you have a good memory, you should remember from the beginning of this blog post
 
 
