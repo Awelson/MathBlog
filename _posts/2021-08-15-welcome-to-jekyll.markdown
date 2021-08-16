@@ -47,7 +47,7 @@ Case 2: This is really easy, so I will have you fill in the details yourself.
 
 Before moving on, let us answer an important question: Do all subsets of \\( \mathbb{R} \\) have an upper bound? Try to answer this question and provide your justification.
 
-The correct answer is no, for example, the subset \\( \mathbb{R}\subeteq \mathbb{R} \\) itself has no upper bounds. Suppose \\( c\in \mathbb{R} \\) is an upper bound of \\( \mathbb{R} \\), then \\( c<c+1 \\) but \\( c+1\in \mathbb{R} \\), this contradicts the fact that \\( c \\) is an upper bound of \\( \mathbb{R} \\). Next question: if \\( \mathbb{R} \\) has no upper bounds, does it have a least upper bound, in other words, does \\( \text{sup }\mathbb{R} \\) exist?
+The correct answer is no, for example, the subset \\( \mathbb{R}\subseteq \mathbb{R} \\) itself has no upper bounds. Suppose \\( c\in \mathbb{R} \\) is an upper bound of \\( \mathbb{R} \\), then \\( c<c+1 \\) but \\( c+1\in \mathbb{R} \\), this contradicts the fact that \\( c \\) is an upper bound of \\( \mathbb{R} \\). Next question: if \\( \mathbb{R} \\) has no upper bounds, does it have a least upper bound, in other words, does \\( \text{sup }\mathbb{R} \\) exist?
 
 The answer is no, obviously.
 
