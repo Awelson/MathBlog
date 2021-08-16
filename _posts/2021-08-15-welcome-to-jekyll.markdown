@@ -37,9 +37,5 @@ A more complicated example would be \\( A=(0,1) \\). A reasonable guess would be
 
 Case 1: To show that \\( c \\) is not an upper bound of \\( A \\), we will show that there exists an \\( a\in A \\) such that \\( c<a \\) (why does this imply that \\( c \\) is not an upper bound of \\( A \\)?) We propose letting \\( a \\) be the midpoint between \\(c \\) and \\( 1 \\), i.e, \\( a=\frac{c+1}{2} \\). Notice that \\( c<a \\) is immediate, further, since we already know that \\( a<1 \\), it suffices to show that \\( 0<a \\) in order to show that \\( a\in A \\). This is easy,
 
-\\[ \begin{align}
--1&<c \\
-0&<c+1 \\
-0&<\frac{c+1}{2}=a
-\end{align} \\]
+\\[ \begin{align} -1&<c \\ 0&<c+1 \\ 0&<\frac{c+1}{2}=a \end{align} \\]
 
