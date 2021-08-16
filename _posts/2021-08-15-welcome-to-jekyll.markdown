@@ -75,9 +75,9 @@ For example, \\( 1 \\) is a lower bound of \\( \\{2,4,7\\} \\). It makes no sens
 
 > Definition 1.1.6 A subset \\(A \subseteq \mathbb{R} \\) is said to be bounded if it is both bounded above and bounded below. It is clear that a bounded set has both a least upper bound and a greatest lower bound.
 
-A relationship between least upper bound and greatest lower bound of a bounded set \\( A \\) goes as follows:
+A relationship between least upper bound and greatest lower bound can be described as follows:
 
-> Theorem 1.1.7 Set \\(B=\\{-a \ \vert \ a\in A\\} \\), then \\( \text{inf }B=-\text{sup }A \\)
+> Theorem 1.1.7 Let \\( A\subseteq \mathbb{R} \\) be a bounded set. If \\(B=\\{-a \ \vert \ a\in A\\} \\), then \\( \text{inf }B=-\text{sup }A \\).
 
 Proof.
 
