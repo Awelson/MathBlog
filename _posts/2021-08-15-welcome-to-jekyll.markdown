@@ -22,14 +22,14 @@ It is believable to think that \\( 7 \\) is the smallest possible upper bound we
 
 > Definition 1.2 \\( \ x\in \mathbb{R} \\) is said to be the least upper bound of a subset \\( A\subseteq\mathbb{R} \\) if in addition to being an upper bound of \\(A\\), it also satisfies \\( x\leq c \\) for any upper bound \\(c\\) of \\( A \\). We will sometimes denote the least upper bound of \\( A \\) with \\( \text{sup }A \\).
 
-\\[ \fbox{ \text{It is clear from the definition that given any subset } A\subseteq \mathbb{R}, \text{ the least upper bound of } A \text{ is unique, even if this result is obvious, I encourage you to prove it on your own.}} \\]
+\\[ \boxed{ \text{It is clear from the definition that given any subset } A\subseteq \mathbb{R}, \text{ the least upper bound of } A \text{ is unique, even if this result is obvious, I encourage you to prove it on your own.}} \\]
 
 Given a subset \\( A\subseteq \mathbb{R} \\), it is easy to guess what it's least upper bound should be, for example, we may guess the number \\( x\in \mathbb{R} \\), however, actually proving that \\( x=\text{sup }A \\) will prove to be more difficult. We have to show two things:
 
 1. Show that \\( x \\) is an upper bound of \\( A \\)
 2. Show that \\( x\leq c \\) for any upper bound \\( c \\) of \\( A \\)
 
-Step 2 is equivalent to showing that there is no upper bound that is less than \\( x \\), i.e, we need to show that \\( c<x \ \Longrightarrow \ c \\) is not an upper bound of \\( A \\). Reformulating step 2 this way will make things much easier (trust me).
+Step 2 is equivalent to showing that there is no upper bound that is less than \\( x \\), i.e, we need to show that \\( \ c<x \ \Longrightarrow \ c \\) is not an upper bound of \\( A \\). Reformulating step 2 this way will make things much easier (trust me).
 
 
 
