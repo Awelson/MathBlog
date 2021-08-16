@@ -2,7 +2,7 @@
 layout: post
 title: 'Chapter 1.1, The Archemedean Property'
 date: '2021-08-15 15:56:07 +0700'
-categories: Metric Space Topology
+categories: Metric-Space-Topology
 published: true
 permalink: '/:categories/1'
 ---
