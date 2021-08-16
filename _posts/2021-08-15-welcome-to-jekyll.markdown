@@ -14,7 +14,7 @@ One of the axioms involved is known as the least upper bound property, it states
 
 > Definition 1.1 \\( \ x\in \mathbb{R}\\) is said to be an upper bound of a subset \\( A\subseteq\mathbb{R} \\) if for all \\( a\in A\\), we have \\( a\leq x\\).
 
-For example, if \\( A=\{2,4,7\} \\), then \\( 8 \\) is an upper bound of \\( A \\) because \\( 8 \\) is greater than all the points contained within the set \\( A \\).
+For example, if \\( A={2,4,7} \\), then \\( 8 \\) is an upper bound of \\( A \\) because \\( 8 \\) is greater than all the points contained within the set \\( A \\).
 
 \\[ \fbox{\text{List down some other upper bounds of } A, \text{ can }7 \text{ be put in this list?}} \\]
 
