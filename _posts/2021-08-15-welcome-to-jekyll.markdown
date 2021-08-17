@@ -47,7 +47,7 @@ Case 2: This is really easy, so I will have you fill in the details yourself.
 
 Before moving on, let us answer an important question: Do all subsets of \\( \mathbb{R} \\) have an upper bound? Try to answer this question and provide your justification.
 
-The correct answer is no, for example, the subset \\( \mathbb{R}\subseteq \mathbb{R} \\) itself has no upper bounds. Suppose \\( c\in \mathbb{R} \\) is an upper bound of \\( \mathbb{R} \\), then \\( c<c+1 \\) but \\( c+1\in \mathbb{R} \\), this contradicts the fact that \\( c \\) is an upper bound of \\( \mathbb{R} \\). Here is another question: if \\( \mathbb{R} \\) has no upper bounds, does it have a least upper bound, in other words, does \\( \text{sup }\mathbb{R} \\) exist?
+The correct answer is no, for example, the subset \\( \mathbb{R}\subseteq \mathbb{R} \\) itself has no upper bounds. Suppose \\( c\in \mathbb{R} \\) is an upper bound of \\( \mathbb{R} \\), then \\( c<c+1 \\) but \\( c+1\in \mathbb{R} \\), this contradicts the fact that \\( c \\) is an upper bound of \\( \mathbb{R} \\). If \\( \mathbb{R} \\) has no upper bounds, does it have a least upper bound, in other words, does \\( \text{sup }\mathbb{R} \\) exist?
 
 The answer is no, obviously.
 
@@ -71,8 +71,7 @@ For example, \\( 1 \\) is a lower bound of \\( \\{2,4,7\\} \\). It makes no sens
 
 - What is the greatest lower bound of the set from the above example?
 - Write a formal definition for the greatest lower bound, just like we did in Definition 1.1.2 for the least upper bound. Note: we write \\( \text{inf }A \\) to denote the greatest lower bound of a set \\( A \\).
-- What are two things that we need to show to make sure that a number is indeed the greatest lower bound?
-- What do you think it should mean for a set to be bounded/unbounded below?
+- What should it mean for a set to be bounded/unbounded below?
 - Provide an example of a set that is unbounded below, does this set have a greatest lower bound?
 - If a set \\( A \\) is bounded below, does \\( \text{inf }A \\) exist? In other words, does the least upper bound property translate over to greatest lower bounds as well? The answer is yes!
 
@@ -85,5 +84,3 @@ A relationship between least upper bound and greatest lower bound can be describ
 Proof. Set \\( x=\text{sup }A \\), then we need to show that \\( -x \\) is the greatest lower bound of \\( B \\). First, we show that \\( -x \\) is a lower bound of \\( B \\): We know that \\( a\leq x \\) for all \\( a\in A \\), multiplying this inequality by negative one gives \\( -x\leq -a \\) for all \\( a\in A \\), i.e, \\( -x \\) is a lower bound of \\( B \\).
 
 Next, we show that \\( c\leq -x \\) for all lower bounds \\( c \\) of \\( B \\). Let \\( c \\) be a lower bound of \\( B \\), this means that \\( c\leq -a \\) for all \\( a\in A \\), multiplying by negative one gives \\( a\leq -c \\) for all \\( a\in A \\), i.e, \\( -c \\) is an upper bound of \\( A \\). Because \\( x=\text{sup }A \\), we have \\( x\leq -c \\), multiplying by negative one again gives \\( c\leq -x \\) as desired. \\( \Box \\)
-
-
