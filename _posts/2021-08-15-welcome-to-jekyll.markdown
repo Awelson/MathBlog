@@ -95,7 +95,9 @@ Proof. We prove by contradiction, so assume \\( \exists x\in \mathbb{R}, \forall
 
 Notice that \\( c-1 \\) cannot be an upper bound of \\( \mathbb{N} \\) since \\( c \\) is the *least* upper bound of \\( \mathbb{N} \\). This means that there exists an \\( n\in \mathbb{N} \\) such that \\( c-1<n \\). In other words, \\( c<n+1 \\), but \\( n+1 \\) is a natural number (obviously), this tells us that \\( c \\) fails to be an upper bound of \\( \mathbb{N} \\), this is a contradiction. \\( \Box \\).
 
-Although the Archemedean Property itself is obvious and straightforward, it is integral in the proofs of some less obvious facts. For instance, it leads to the proof that a rational number exists between any two distinct real numbers. This will require some prep work.
+Although the Archemedean Property itself is obvious and straightforward, it is integral in the proofs of some less obvious facts. For instance, it leads to the proof that a rational number exists between any two distinct real numbers. This will require a bit of prep work.
+
+
 
 
 
