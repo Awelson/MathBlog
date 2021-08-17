@@ -84,3 +84,14 @@ A relationship between least upper bound and greatest lower bound can be describ
 Proof. Set \\( x=\text{sup }A \\), then we need to show that \\( -x \\) is the greatest lower bound of \\( B \\). First, we show that \\( -x \\) is a lower bound of \\( B \\): We know that \\( a\leq x \\) for all \\( a\in A \\), multiplying this inequality by negative one gives \\( -x\leq -a \\) for all \\( a\in A \\), i.e, \\( -x \\) is a lower bound of \\( B \\).
 
 Next, we show that \\( c\leq -x \\) for all lower bounds \\( c \\) of \\( B \\). Let \\( c \\) be a lower bound of \\( B \\), this means that \\( c\leq -a \\) for all \\( a\in A \\), multiplying by negative one gives \\( a\leq -c \\) for all \\( a\in A \\), i.e, \\( -c \\) is an upper bound of \\( A \\). Because \\( x=\text{sup }A \\), we have \\( x\leq -c \\), multiplying by negative one again gives \\( c\leq -x \\) as desired. \\( \Box \\)
+
+### The Archemedean Property
+
+We are now ready to prove the Archemedean Property. We will restate it again:
+
+> Theorem 1.1.8 For any \\( x\in \mathbb{R} \\), there exists an \\( n\in \mathbb{N} \\) such that \\( x<n \\). 
+
+Proof. We prove by contradiction, so assume \\( \exists x\in \mathbb{R}, \forall n\in \mathbb{N}, n\leq x \\). This means that \\( \mathbb{N} \\) is bounded above. By the least upper bound property, \\( \text{sup }\mathbb{N} \\) exists, lets call it \\( c \\). 
+
+Notice that \\( c-1 \\) cannot be an upper bound of \\( \mathbb{N} \\) since \\( c \\) is the *least* upper bound of \\( \mathbb{N} \\). This means that there exists an \\( n\in \mathbb{N} \\) such that \\( c-1<n \\). In other words, \\( c<n+1 \\), but \\( n+1 \\) is a natural number (obviously), this tells us that \\( c \\) fails to be an upper bound of \\( \mathbb{N} \\), this is a contradiction. \\( \Box \\).
+
