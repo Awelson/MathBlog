@@ -52,4 +52,4 @@ and therefore,
 
 as needed. Hello \\( x-3 \\). We will be proving the following inequality,
 
-\\[ \frac{|x+y|}{1+|x+y|}\leq \frac{|x|}{1+|x|}+\frac{|y|}{1+|y|}, \quad x,y\in \mathbb{R}. \\]
+\\[ x-3 \\]
