@@ -137,7 +137,7 @@ Proof. By theorem 1.1.9, we are able to find a rational number between \\( x-\sq
 
 \\[ x-\sqrt{2}<q<y-\sqrt{2}. \\]
 
-Adding by \\( \sqrt{2} \\) gives \\( x<q+\sqrt{2}<y \\). Since \\( q+\sqrt{2} \\) is irrational, we are hereby done with the proof. \\( \Box \\)
+Adding by \\( \sqrt{2} \\) gives \\( x<q+\sqrt{2}<y \\). Since \\( q+\sqrt{2} \\) is irrational, the proof is complete. \\( \Box \\)
 
 
 
