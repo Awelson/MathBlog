@@ -104,7 +104,7 @@ Next, we shall prove two corollaries of the archemedean property,
 > Corollary 1.1.8.1 For any \\( x\in \mathbb{R} \\), there exists an \\( n\in \mathbb{Z} \\) such that \\( n-1\leq x < n \\). 
 
 Proof. Assume that \\( x\geq 0 \\). Let
-\\[ A=\\{ n\in \mathbb{N} \ \vert \ x<n \\} \\].
+\\[ A=\\{ n\in \mathbb{N} \ \vert \ x<n \\}. \\]
 The Archemedean Property tells us that \\( A \\) is non-empty, therefore, by the well-ordering principle, \\( \text{min }A \\) exists, let's call it \\( c \\). If \\( c=1 \\), then \\( 0\leq x< 1 \\), and there is nothing left to show. Now assume that \\( c\geq 2 \\), then \\( c-1 \\) is a natural number (if \\( c=1 \\), then \\( c-1=0 \\) is not a natural number). \\( x<c \\) is already true, so we just need to show that \\( c-1\leq x \\). We prove by contradiction, suppose that \\( x<c-1 \\), then since \\( c-1\in \mathbb{N} \\) is also true, we must have \\( c-1\in A \\), but this contradicts \\( c \\) being the minimum of \\( A \\).
 
 Now assume that \\( x<0 \\). This means that \\( 0<-x \\), and by the above, there exists an \\( n\in \mathbb{N} \\) such that \\( n-1\leq -x < n \\). This means that \\( -n < x \leq 1-n \\). Notice that we can write \\( -n=z-1 \\) for some \\( z\in \mathbb{Z} \\), substitution then gives \\( z-1< x \leq z \\). This is not exactly the inequality we are looking for (but it's close!), the finishing touch is easy, so I will leave it to you. \\( \Box \\)
