@@ -115,7 +115,7 @@ Proof. Notice that \\( 1/y \\) is a real number, the Archemedean Property tells 
 
 We are now ready for the main punchline,
 
-> Theorem 1.1.9 Given any two real numbers, \\( x \\) and \\( y \\), with \\( x<y \\). There exists a \\( q\in \mathbb{Q} \\) such that \\( x<q<y \\).
+> Theorem 1.1.9 Given \\( x,y\in \mathbb{R} \\) with \\( x<y \\), there exists a \\( q\in \mathbb{Q} \\) such that \\( x<q<y \\).
 
 Proof. We need to find two integers, \\( n,m \\) such that \\( x<\frac{m}{n}<y \\). Via corollary 1.1.8.2, we can choose an \\( n\in \mathbb{N} \\) which satisfies \\( \frac{1}{n}<y-x \\). With \\( n \\) already chosen, we use corollary 1.1.8.1 to choose an \\( m\in \mathbb{Z} \\) which satisfies \\( m-1\leq nx < m \\). Dividing the inequality by \\( n \\) gives \\( x<\frac{m}{n} \\), so now it suffices to show that \\( \frac{m}{n}<y \\). 
 
