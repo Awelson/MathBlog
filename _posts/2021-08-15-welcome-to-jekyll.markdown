@@ -71,13 +71,13 @@ For example, \\( 1 \\) is a lower bound of \\( \\{2,4,7\\} \\). It makes no sens
 
 - What is the greatest lower bound of the set from the above example?
 - Write a formal definition for the greatest lower bound, just like we did in Definition 1.1.2 for the least upper bound. Note: we write \\( \text{inf }A \\) to denote the greatest lower bound of a set \\( A \\).
+- Show that \\( \text{inf }(0,1)=0 \\).
 - What should it mean for a set to be bounded/unbounded below?
-- Provide an example of a set that is unbounded below, does this set have a greatest lower bound?
 - If a set \\( A \\) is bounded below, does \\( \text{inf }A \\) exist? In other words, does the least upper bound property translate over to greatest lower bounds as well? The answer is yes!
 
 > Definition 1.1.6 A subset \\(A \subseteq \mathbb{R} \\) is said to be bounded if it is both bounded above and bounded below. It is clear that a bounded set have both a least upper bound and a greatest lower bound.
 
-A relationship between least upper bound and greatest lower bound can be described as follows:
+After completing the exercises above, you will notice that the concept of greatest lower bounds is not dissimilar to that of least upper bounds, in fact, a relationship between least upper bound and greatest lower bound can be described as follows:
 
 > Theorem 1.1.7 Let \\( A\subseteq \mathbb{R} \\) be a bounded set. If \\(B=\\{-a \ \vert \ a\in A\\} \\), then \\( \text{inf }B=-\text{sup }A \\).
 
@@ -95,9 +95,10 @@ Proof. We prove by contradiction, so assume \\( \exists x\in \mathbb{R}, \forall
 
 Notice that \\( c-1 \\) cannot be an upper bound of \\( \mathbb{N} \\) since \\( c \\) is the *least* upper bound of \\( \mathbb{N} \\). This means that there exists an \\( n\in \mathbb{N} \\) such that \\( c-1<n \\). In other words, \\( c<n+1 \\), but \\( n+1 \\) is a natural number (obviously), this tells us that \\( c \\) fails to be an upper bound of \\( \mathbb{N} \\), this is a contradiction. \\( \Box \\).
 
-Although the Archemedean Property itself is obvious and straightforward, it is integral in the proofs of some less obvious facts. For instance, it leads to the proof that a rational number exists between any two distinct real numbers. This will require a bit of prep work.
+Although the Archemedean Property itself is obvious and straightforward, it is integral in the proofs of some less obvious facts. For instance, it leads to the proof that a rational number exists between any two distinct real numbers. This will require a bit of prep work. First, we introduce another axiom 
 
+> \[The Well-Ordering Principle\] Every non-empty subset of \\( \mathbb{N} \\) has a well defined minimum.
 
+Next, we shall prove the following lemma,
 
-
-
+> Lemma 1.1.9 For any \\( x\in \mathbb{R} \\), there exists an \\( n\in \mathbb{Z} \\) such that \\( n-1\leq x < n \\). 
