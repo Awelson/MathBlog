@@ -127,7 +127,7 @@ This finishes the proof. \\( \Box \\)
 
 Aside from telling us that there exists a rational number between any two distinct real numbers, theorem 1.1.9 also gives us a method to construct such a rational number.
 
-**Example.** Say we wish to find a rational number between \\( e \\) and \\( \pi \\). We can do this by choosing an \\( n\in \mathbb{N} \\) which satisfies \\( \frac{1}{n}<\pi-e \\). It is easy to see that \\( n=10 \\) satisfies this condition. Next, we choose an \\( m\in \mathbb{Z} \\) which satisfies \\( m-1\leq 10e < m \\). Quick calculation tells us that \\( m \\) should equal 28. By theorem 1.1.9, \\( \frac{28}{10} \\) is a rational number between \\( e \\) and \\( \pi \\), this is easily verified.
+**Example.** Say we wish to find a rational number between \\( e \\) and \\( \pi \\). We can do this by choosing an \\( n\in \mathbb{N} \\) which satisfies \\( \frac{1}{n}<\pi-e \\). It is easy to see that \\( n=10 \\) satisfies this condition. Next, we choose an \\( m\in \mathbb{Z} \\) which satisfies \\( m-1\leq 10e < m \\). Quick calculation tells us that \\( m \\) should equal 28. By theorem 1.1.9, \\( \frac{28}{10} \\) is a rational number between \\( e \\) and \\( \pi \\), this can be easily verified.
 
 Here is a nice corollary of theorem 1.1.9:
 
