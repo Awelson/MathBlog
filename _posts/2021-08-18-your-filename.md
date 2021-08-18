@@ -10,7 +10,7 @@ permalink: '/:categories/1'
 
 We will be proving the following inequality,
 
-\\[ \frac{|x+y|}{1+|x+y|}\leq \frac{|x|}{1+|x|}+\frac{|y|}{1+|y|}, \quad x,y\in \mathbb{R}. \\]
+\\[\frac{|x+y|}{1+|x+y|}\leq \frac{|x|}{1+|x|}+\frac{|y|}{1+|y|}, \quad x,y\in \mathbb{R}.\\]
 
 Note that these fractions are always defined because the denominators are always non-zero. Assume that \\( |x+y|\leq |x| \\). This means that
 
