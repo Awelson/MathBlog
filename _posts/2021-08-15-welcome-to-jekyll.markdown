@@ -102,3 +102,17 @@ Although the Archemedean Property itself is obvious and straightforward, it is i
 Next, we shall prove the following lemma,
 
 > Lemma 1.1.9 For any \\( x\in \mathbb{R} \\), there exists an \\( n\in \mathbb{Z} \\) such that \\( n-1\leq x < n \\). 
+
+Proof. Assume that \\( x\geq 0 \\). Let
+\\[ A=\\{ n\in \mathbb{N} \ \vert \ x<n \\} \\].
+The Archemedean Property tells us that \\( A \\) is non-empty, therefore, by the well-ordering principle, \\( \text{min }A \\) exists, let's call it \\( c \\). If \\( c=1 \\), then \\( 0\leq x< 1 \\), and there is nothing left to show. Now assume \\( c\geq 2 \\), then \\( c-1 \\) is a natural number that is not contained within \\( A \\), this implies that \\( c-1\leq x \\) (if \\( c=1 \\), then \\( c-1=0 \\) is not a natural number, so the same argument won't hold).  So, \\( c-1\leq x< c \\) as desired.
+
+Now assume that \\( x<0 \\). This means that \\( 0<-x \\), and by the above, there exists an \\( n\in \mathbb{N} \\) such that \\( n-1\leq -x < n \\). This means that \\( -n < x \leq 1-n \\). Notice that we can write \\( -n=z-1 \\) for some \\( z\in \mathbb{Z} \\), substitution then gives \\( z-1< x \leq z \\). This is not exactly the inequality we are looking for (but it's close!), the finishing touch is easy, so I will leave it to you. \\( \Boxed \\)
+
+
+
+
+
+
+
+
