@@ -44,7 +44,7 @@ To this end, assume that \\( \|x\|,\|y\|<\|x+y\| \\). The triangle inequality st
 
 Since \\( \|x\|,\|y\|<\|x+y\| \\) implies \\( \frac{1}{\|x+y\|}<\frac{1}{\|x\|},\frac{1}{\|y\|} we have
 
-\\[ \frac{|x|}{1+|x+y|}+\frac{|y|}{1+|x+y|}\leq \frac{|x|}{1+|x|}+\frac{|y|}{1+|y|} \\]
+\\[ \frac{\|x\|}{1+\|x+y\|}+\frac{\|y\|}{1+\|x+y\|}\leq \frac{\|x\|}{1+\|x\|}+\frac{\|y\|}{1+\|y\|} \\]
 
 and therefore, 
 
