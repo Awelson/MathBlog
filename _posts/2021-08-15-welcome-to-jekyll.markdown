@@ -107,11 +107,11 @@ Proof. Assume that \\( x\geq 0 \\). Let
 \\[ A=\\{ n\in \mathbb{N} \ \vert \ x<n \\} \\].
 The Archemedean Property tells us that \\( A \\) is non-empty, therefore, by the well-ordering principle, \\( \text{min }A \\) exists, let's call it \\( c \\). If \\( c=1 \\), then \\( 0\leq x< 1 \\), and there is nothing left to show. Now assume that \\( c\geq 2 \\), then \\( c-1 \\) is a natural number (if \\( c=1 \\), then \\( c-1=0 \\) is not a natural number). \\( x<c \\) is already true, so we just need to show that \\( c-1\leq x \\). We prove by contradiction, suppose that \\( x<c-1 \\), then since \\( c-1\in \mathbb{N} \\) is also true, we must have \\( c-1\in A \\), but this contradicts \\( c \\) being the minimum of \\( A \\).
 
-Now assume that \\( x<0 \\). This means that \\( 0<-x \\), and by the above, there exists an \\( n\in \mathbb{N} \\) such that \\( n-1\leq -x < n \\). This means that \\( -n < x \leq 1-n \\). Notice that we can write \\( -n=z-1 \\) for some \\( z\in \mathbb{Z} \\), substitution then gives \\( z-1< x \leq z \\). This is not exactly the inequality we are looking for (but it's close!), the finishing touch is easy, so I will leave it to you. \\( \Boxed \\)
+Now assume that \\( x<0 \\). This means that \\( 0<-x \\), and by the above, there exists an \\( n\in \mathbb{N} \\) such that \\( n-1\leq -x < n \\). This means that \\( -n < x \leq 1-n \\). Notice that we can write \\( -n=z-1 \\) for some \\( z\in \mathbb{Z} \\), substitution then gives \\( z-1< x \leq z \\). This is not exactly the inequality we are looking for (but it's close!), the finishing touch is easy, so I will leave it to you. \\( \Box \\)
 
 > Corollary 1.1.8.2 Given any \\( y>0 \\), there exists an \\( n\in \mathbb{N} \\) such that \\( \frac{1}{n}<y \\). 
 
-Proof. Notice that \\( 1/y \\) is a real number, the Archemedean Property tells us that there exists an \\( n\in \mathbb{N} \\) such that \\( \frac{1}{y}<n \\). Multiplying this inequality by \\( \frac{y}{n} \\) ( \\( notice that \frac{y}{n}>0 \\) because \\( y>0 \\)), we obtain \\( \frac{1}{n}<y \\) as needed. \\( \Boxed \\).
+Proof. Notice that \\( 1/y \\) is a real number, the Archemedean Property tells us that there exists an \\( n\in \mathbb{N} \\) such that \\( \frac{1}{y}<n \\). Multiplying this inequality by \\( \frac{y}{n} \\) ( \\( notice that \frac{y}{n}>0 \\) because \\( y>0 \\)), we obtain \\( \frac{1}{n}<y \\) as needed. \\( \Box \\).
 
 We are now ready for the main punchline,
 
@@ -123,7 +123,7 @@ This time, add one to the inequality, this gives \\( m\leq nx+1 \\). Remember th
 
 \\[ \frac{m}{n}\leq x+\frac{1}{n}<x+(y-x)=y. \\]
 
-This finishes the proof. \\( \Boxed \\)
+This finishes the proof. \\( \Box \\)
 
 Aside from telling us that there exists a rational number between any two distinct real numbers, theorem 1.1.9 also gives us a method to construct such a rational number.
 
@@ -137,7 +137,7 @@ Proof. By theorem 1.1.9, we are able to find a rational number between \\( x-\sq
 
 \\[ x-\sqrt{2}<q<y-\sqrt{2}. \\]
 
-Adding by \\( \sqrt{2} \\) gives \\( x<q+\sqrt{2}<y \\). Since \\( q+\sqrt{2} \\) is irrational, we are hereby done with the proof. \\( \Boxed \\)
+Adding by \\( \sqrt{2} \\) gives \\( x<q+\sqrt{2}<y \\). Since \\( q+\sqrt{2} \\) is irrational, we are hereby done with the proof. \\( \Box \\)
 
 
 
