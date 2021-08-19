@@ -38,13 +38,17 @@ Since \\( \frac{\|x\|}{1+\|x\|} \\) is positive, we reach our goal inequality ag
 
 We have shown that the inequality is true if either \\( \|x\| \\) or \\( \|y\| \\) is greater than or equal to \\( \|x+y\| \\), so now we need to consider what happens if both \\( \|x\| \\) and \\( \|y\| \\) are less than \\( \|x+y\| \\).
 
-To this end, assume that \\( \|x\|,\|y\|<\|x+y\| \\). The triangle inequality states that \\( \|x+y\|\leq \|x\|+\|y\| \\), therefore,
+The triangle inequality states that \\( \|x+y\|\leq \|x\|+\|y\| \\), therefore,
 
 \\[ \frac{\|x+y\|}{1+\|x+y\|}\leq \frac{\|x\|}{1+\|x+y\|}+\frac{\|y\|}{1+\|x+y\|}. \\]
 
-Since \\( \|x\|,\|y\|<\|x+y\| \\), we have
+Since \\( \|x\|<\|x+y\| \\), we have
 
-\\[ \frac{\|x\|}{1+\|x+y\|}+\frac{\|y\|}{1+\|x+y\|}\leq \frac{\|x\|}{1+\|x\|}+\frac{\|y\|}{1+\|y\|} \\]
+\\[ \frac{\|x\|}{1+\|x+y\|}\leq \frac{\|x\|}{1+\|x\|}. \\]
+
+In a similar fashion, \\( \|y\|<\|x+y\| \\) leads to
+
+\\[ \frac{\|y\|}{1+\|x+y\|}\leq \frac{\|y\|}{1+\|y\|}. \\]
 
 and therefore, 
 
