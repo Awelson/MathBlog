@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: An Elementary Inequality
+title: 'Chapter 1.2 [Excursions] I'
 date: '2021-08-19 15:56:07 +0700'
 categories: Misc
 permalink: '/:categories/1'
