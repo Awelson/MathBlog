@@ -75,7 +75,7 @@ For example, \\( 1 \\) is a lower bound of \\( \\{2,4,7\\} \\). It makes no sens
 - What should it mean for a set to be bounded/unbounded below?
 - If a set \\( A \\) is bounded below, does \\( \text{inf }A \\) exist? In other words, does the least upper bound property translate over to greatest lower bounds as well? The answer is yes!
 
-> Definition 1.1.6 A subset \\(A \subseteq \mathbb{R} \\) is said to be bounded if it is both bounded above and bounded below. It is clear that a bounded set have both a least upper bound and a greatest lower bound.
+> Definition 1.1.6 A subset \\(A \subseteq \mathbb{R} \\) is said to be bounded if it is both bounded above and bounded below. It is clear that a bounded set has both a least upper bound and a greatest lower bound. If \\( A \\) is either unbounded above or unbounded below, we simply say that it is unbounded.
 
 After completing the exercises above, you will notice that the concept of greatest lower bounds is not dissimilar to that of least upper bounds, in fact, a relationship between least upper bound and greatest lower bound can be described as follows:
 
@@ -139,16 +139,10 @@ Proof. By theorem 1.1.9, we are able to find a rational number between \\( x-\sq
 
 Adding by \\( \sqrt{2} \\) gives \\( x<q+\sqrt{2}<y \\). Since \\( q+\sqrt{2} \\) is irrational, the proof is complete. \\( \Box \\)
 
+### Extension to Infinity
 
+The set \\( A=\\{1,2,\ldots\\} \\) is clearly unbounded above, so \\( \text{sup }A \\) does not exist, however, it wouldn't be inaccurate if we were to say that \\( \text{sup }A=\infty \\) because this statement conveys the idea that \\( A \\) is unbounded above. Similarly, if \\( A \\) is unbounded below, it also wouldn't be inaccurate to say that \\( \text{inf }A=-\infty \\). 
 
+This gives us two different conventions, for example, for a set that is unbounded above, we may either state that its supremum does not exist, or we may state that its supremum is infinity. We shall switch between these two conventions whenever it suits us.
 
-
-
-
-
-
-
-
-
-
-
+If we would like to implement the latter convention, we will state something along the lines of 'we shall allow the supremum and infimum to take infinite values' or '\\( \text{sup }A(\text{inf }A)\in \mathbb{R}^*\\)' where \\( \mathbb{R}^*=\mathbb{R}\cup \\{\infty,-\infty\\}. \\)
