@@ -143,6 +143,6 @@ Adding by \\( \sqrt{2} \\) gives \\( x<q+\sqrt{2}<y \\). Since \\( q+\sqrt{2} \\
 
 The set \\( A=\\{1,2,\ldots\\} \\) is clearly unbounded above, so \\( \text{sup }A \\) does not exist, however, it wouldn't be inaccurate if we were to say that \\( \text{sup }A=\infty \\) because this statement conveys the idea that \\( A \\) is unbounded above. Similarly, if \\( A \\) is unbounded below, it also wouldn't be inaccurate to say that \\( \text{inf }A=-\infty \\). 
 
-This gives us two different conventions, for example, for a set that is unbounded above, we may either state that its supremum does not exist, or we may state that its supremum is infinity. We shall switch between these two conventions whenever it suits us.
+This gives us two different conventions, for example, for a set that is unbounded above, we may either state that its supremum does not exist, or we may state that its supremum is infinity. We shall switch between these two conventions whenever it suits us so.
 
 If we would like to implement the latter convention, we will state something along the lines of 'we allow the supremum(or infimum) to take infinite values', alternatively, '\\( \text{sup }A( \\)or \\( \text{ inf }A )\in \mathbb{R}^\* \\)' (where \\( \mathbb{R}^\*=\mathbb{R}\cup \\{\infty,-\infty\\} \\)) conveys the same meaning.
