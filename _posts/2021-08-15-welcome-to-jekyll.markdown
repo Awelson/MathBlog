@@ -145,4 +145,4 @@ The set \\( A=\\{1,2,\ldots\\} \\) is clearly unbounded above, so \\( \text{sup 
 
 This gives us two different conventions, for example, for a set that is unbounded above, we may either state that its supremum does not exist, or we may state that its supremum is infinity. We shall switch between these two conventions whenever it suits us.
 
-If we would like to implement the latter convention, we will state something along the lines of 'we allow the supremum(or infimum) to take infinite values', alternatively, '\\( \text{sup }A( \\)or \\( \text{ inf }A )\in \mathbb{R}^\* \\)' (where \\( \mathbb{R}^\*=\mathbb{R}\cup \\{\infty,-\infty\\} \\)) may be used to convey the same meaning.
+If we would like to implement the latter convention, we will state something along the lines of 'we allow the supremum(or infimum) to take infinite values', alternatively, '\\( \text{sup }A( \\)or \\( \text{ inf }A )\in \mathbb{R}^\* \\)' (where \\( \mathbb{R}^\*=\mathbb{R}\cup \\{\infty,-\infty\\} \\)) conveys the same meaning.
