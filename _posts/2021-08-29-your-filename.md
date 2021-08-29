@@ -8,4 +8,4 @@ categories: misc
 permalink: '/:categories/2'
 ---
 
-{% includes katex.html %}
+{% include katex.html %}
