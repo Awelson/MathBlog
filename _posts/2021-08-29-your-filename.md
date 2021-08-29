@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 'Chapter 1.2 [Excursions] II'
 type: post
 layout: post
