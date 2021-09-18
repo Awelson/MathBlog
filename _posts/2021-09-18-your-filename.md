@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Chapter 1.4 Some Facts About Sequences From R
 layout: post
 date: '2021-09-18 15:56:07 +0700'
