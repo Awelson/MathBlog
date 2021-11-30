@@ -1,7 +1,0 @@
----
-published: false
-layout: post
-categories: Set-Theory
-permalink: '/:categories/3'
----
-{% include katex.html %}
