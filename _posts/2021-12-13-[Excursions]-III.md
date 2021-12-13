@@ -37,6 +37,6 @@ It is clear that \\( p_k^{\alpha_k} \mid a \ (k=1,2,\ldots,r) \\), thus Kwan con
 
 Multiplying (1) by \\( m_1m_2\cdots m_r \\) gives
 
-\\[ am_1m_2\cdots m_r=b^r \quad \Longrightarrow \quad m_1m_2\ldots m_r=\frac{a}{b}b^{r-1}. \\]
+\\[ am_1m_2\cdots m_r=b^r \quad \Longrightarrow \quad m_1m_2\ldots m_r=\frac{b}{a}b^{r-1}. \\]
 
 Since \\( a \nmid b \\), the right hand side is not a whole number, but this is a contradiction because the left hand side definitely is. \\( \Box \\)
