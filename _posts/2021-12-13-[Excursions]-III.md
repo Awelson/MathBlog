@@ -6,7 +6,7 @@ permalink: '/:categories/3'
 ---
 {% include katex.html %}
 
-Here, we wish to prove that for any \\( a,b\in \mathbb{N} \\}, if \\( a^2 \mid b^2 \\) then we must have \\( a \mid b \\). 
+Here, we wish to prove that for any \\( a,b\in \mathbb{N} \\), if \\( a^2 \mid b^2 \\) then we must have \\( a \mid b \\). 
 
 > Notice that the proof is immediate when \\( a=1 \\), thus, throughout this post we will be assuming that \\( a>1 \\). 
 
