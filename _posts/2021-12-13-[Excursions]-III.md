@@ -9,7 +9,7 @@ title: '[Excursions] III'
 
 Here, we wish to prove that for any \\( a,b\in \mathbb{N} \\), if \\( a^2 \mid b^2 \\) then we must have \\( a \mid b \\). 
 
-> Notice that the proof is immediate when \\( a=1 \\), thus, throughout this post we will be assuming that \\( a>1 \\). 
+> Note that the proof is immediate when \\( a=1 \\), thus, throughout this post we will be assuming that \\( a>1 \\). 
 
 Although this may seem easy, the proof is rather complicated and requires us to do a lot of prerequisite work. The first of which is to be aware of FTA, the "Fundamental Theorem of Arithmetic",
 
