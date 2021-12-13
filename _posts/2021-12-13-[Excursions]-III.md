@@ -33,7 +33,7 @@ By FTA, Kwan can decompose \\( a \\) into a product of prime powers. Suppose
 
 \\[ a=p_1^{\alpha_1}p_2^{\alpha_2}\cdots p_r^{\alpha_r} \tag{1}\\]
 
-It is clear that for each \\( k=1,2,\ldots,r \\), \\( p_k^{\alpha_k} \mid a \\), thus Kwan concludes that \\( p_k^{\alpha_k} \mid b \\) for each \\( k=1,2,\ldots,r \\). By definition, this means that there exists numbers \\( m_1,m_2,\ldots,m_r\in \mathbb{N} \\) such that \\( b=m_kp_k^{\alpha_k} \\) for each \\( k=1,2,\ldots,r. \\) 
+It is clear that \\( p_k^{\alpha_k} \mid a \ (k=1,2,\ldots,r) \\), thus Kwan concludes that \\( p_k^{\alpha_k} \mid b \ (k=1,2,\ldots,r) \\). By definition, this means that there exists numbers \\( m_1,m_2,\ldots,m_r\in \mathbb{N} \\) such that \\( b=m_kp_k^{\alpha_k} \ (k=1,2,\ldots,r) \\). 
 
 Multiplying (1) by \\( m_1m_2\cdots m_r \\) gives
 
