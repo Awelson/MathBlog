@@ -3,6 +3,7 @@ published: true
 layout: post
 categories: misc
 permalink: '/:categories/3'
+title: '[Excursions] III'
 ---
 {% include katex.html %}
 
@@ -39,8 +40,3 @@ Multiplying (1) by \\( m_1m_2\cdots m_r \\) gives
 \\[ am_1m_2\cdots m_r=b^r \quad \Longrightarrow \quad m_1m_2\ldots m_r=\frac{a}{b}b^{r-1}. \\]
 
 Since \\( a \nmid b \\), the right hand side is not a whole number, but this is a contradiction because the left hand side definitely is. \\( \Box \\)
-
-
-
-
-
