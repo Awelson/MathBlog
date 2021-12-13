@@ -15,7 +15,7 @@ Although this may seem easy, the proof is rather complicated and requires us to 
 
 > Theorem. [Fundamental Theorem of Arithmetic] Any integer \\( n>1 \\) can be represented uniquely as a product of prime powers, i.e,
 \\[ n=p_1^{n_1}p_2^{n_2}\cdots p_k^{n_k} \\]
-where p_1<p_2<\cdots<p_k are primes and \\( n_1,n_2,\ldots,n_k \\) are positive integers.
+where \\( p_1<p_2<\cdots<p_k \\) are primes and \\( n_1,n_2,\ldots,n_k \\) are positive integers.
 
 This is a pretty well known theorem so I will not include its proof here, I'm sure it is easy to find elsewhere. Let us use FTA to prove the following lemma
 
