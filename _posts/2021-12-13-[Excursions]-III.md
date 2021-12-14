@@ -63,11 +63,13 @@ Proof. Assume that \\( a^n\mid b^n \\) but \\( a\nmid b \\), then lemma 2 tells 
 
 Theorem 3 aside, lemma 2 also gives another interesting result:
 
-> Theorem 4. For any \\( x,y\in \mathbb{N} \\), \\( x^{1/y} \\) is never rational.
+> Theorem 4. For any \\( x,y\in \mathbb{N} \\), \\( x^{1/y} \\) is either irrational or an integer.
 
-Proof. If \\( x^{1/y} \\) is rational then we can write \\( x^{1/y}=\frac{b}{a} \\) where \\( a\nmid b \\). However,
+Proof. If \\( x^{1/y} \\) is neither irrational nor an integer then we can write \\( x^{1/y}=\frac{b}{a} \\) where \\( a\nmid b \\). However,
 
 \\[ x=(x^{1/y})^y=\frac{b^y}{a^y} \\] 
 
 is a contradiction. Lemma 2 tells us that \\( a^y \\) does not divide \\( b^y \\) so the far right hand side is not a whole number (while the far left hand side clearly is). \\( \Box \\)
+
+Since \\( \sqrt{2} \\) is clearly not an integer, theorem 4 gives us a proof that \\( \sqrt{2} \\) is irrational, one that is different from the classic proof by contradiction.
 
