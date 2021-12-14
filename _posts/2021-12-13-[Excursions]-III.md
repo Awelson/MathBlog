@@ -53,7 +53,11 @@ then the unique decomposition of \\( b^n \\) is
 
 \\[ b^n=p_1^{n\alpha_1}p_2^{n\alpha_2}\cdots p_r^{n\alpha_r}=kp^{tn} \\]
 
-Since the decomposition is unique, this means that one of \\( p_1^{n\alpha_1},p_1^{n\alpha_2},\ldots, p_1^{n\alpha_r} \\) is equal to \\( p^{tn} \\), WLOG suppose \\( p_1^{n\alpha_1}=p^{tn} \\), thus we have \\( p_1^{\alpha_1}=p^t \\). By (2), \\( p^t \mid b \\), this is a contradiction, thus, \\( p^{tn} \nmid b^n \\).
+Since the decomposition is unique, this means that one of \\( p_1,p_2,\ldots, p_r \\) is equal to \\( p \\), WLOG suppose \\( p_1=p \\), then we must have \\( tn\leq n\alpha_1 \\)
+
+> It is possible for \\( k \\) to have a factor of \\( p \\), giving rise to the possibility that \\( tn< \alpha_1 \\)
+
+so \\( t\leq \alpha_1 \\). Then, \\( p^t\mid p_1^{\alpha_1} \mid b \\), is a contradiction, thus, \\( p^{tn} \nmid b^n \\).
 
 \\( a^n \mid b^n \\) is impossible because \\( p^{tn} \mid a^n \\) and \\( \mid \\) is transitive. Thus we must have \\( a^n \nmid b^n \\) as desired.
 
