@@ -61,3 +61,13 @@ This means that one of \\( p_1^{n\alpha_1},p_1^{2\alpha_2},\ldots, p_1^{r\alpha_
 
 Proof. Assume that \\( a^n\mid b^n \\) but \\( a\nmid b \\), then lemma 2 tells us that \\( a^n \nmid b^n \\), this contradicts our initial assumption. \\( \Box \\)
 
+Theorem 3 aside, lemma 2 also gives another interesting result:
+
+> Theorem 4. For any \\( x,y\in \mathbb{N} \\), \\( x^{1/y} \\) is never rational.
+
+Proof. If \\( x^{1/y} \\) is rational then we can write \\( x^{1/y}=\frac{b}{a} \\) where \\( a\nmid b \\). However,
+
+\\[ x=(x^{1/y})^y=\frac{b^y}{a^y} \\] 
+
+is a contradiction. Lemma 2 tells us that \\( a^y \\) does not divide \\( b^y \\) so the far right hand side is not a whole number (while the far left hand side clearly is). \\( \Box \\)
+
