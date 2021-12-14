@@ -7,7 +7,7 @@ title: '[Excursions] III'
 ---
 {% include katex.html %}
 
-Here, we wish to prove that for any \\( a,b\in \mathbb{N} \\), if \\( a^2 \mid b^2 \\) then we must have \\( a \mid b \\). 
+Here, we wish to prove that for any \\( n\in \mathbb{N} \\), if \\( a^n \mid b^n \\) then we must have \\( a \mid b \\). 
 
 > Note that the proof is immediate when \\( a=1 \\), thus, throughout this post we will be assuming that \\( a>1 \\). 
 
@@ -40,3 +40,24 @@ Multiplying (1) by \\( m_1m_2\cdots m_r \\) gives
 \\[ am_1m_2\cdots m_r=b^r \quad \Longrightarrow \quad m_1m_2\ldots m_r=\frac{b}{a}b^{r-1}. \\]
 
 Since \\( a \nmid b \\), the right hand side is not a whole number, but this is a contradiction because the left hand side definitely is. \\( \Box \\)
+
+Now let us prove the next lemma,
+
+> Lemma 2. If \\( a\nmid b \\), then \\( a^n \nmid b^n \\) where \\( n\in \mathbb{N} \\).
+
+Proof. By lemma 1, we know that there exists a prime number \\( p \\) and a positive integer \\( t \\) such that \\( p^t\mid a \\) and \\( p^t \nmid b \\). Clearly \\( p^{tn} \mid a^n \\), now suppose \\( p^{tn} \mid b^n \\), then \\( b^n=kp^{tn} \\) for some \\( k \\). If \\( b \\) has the decomposition
+
+\\[ b=p_1^{\alpha_1}p_2^{\alpha_2}\cdots p_r^{\alpha_r} \tag{2}\\]
+
+then the unique decomposition of \\( b^n \\) is
+
+\\[ b^n=p_1^{n\alpha_1}p_2^{n\alpha_2}\cdots p_r^{n\alpha_r}=kp^{tn} \\]
+
+This means that one of \\( p_1^{n\alpha_1},p_1^{2\alpha_2},\ldots, p_1^{r\alpha_r} \\) is equal to \\( p^{tn} \\) (while \\( k \\) is the rest), WLOG suppose \\( p_1^{n\alpha_1}=p^{tn} \\), thus \\( p_1^{\alpha_1}=p^t \mid b \\) (look at (2)). This is a contradiction, thus, \\( p^{tn} \nmid b^n \\).
+
+\\( a^n \mid b^n \\) is impossible because \\( p^{tn} \mid a^n \\) and \\( \mid \\) is transitive. Thus we must have \\( a^n \nmid b^n \\) as desired.
+
+> Theorem 3. Let \\( n\in \mathbb{N} \\), if \\( a^n \mid b^n \\), then \\( a\mid b \\). 
+
+Proof. Assume that \\( a^n\mid b^n \\) but \\( a\nmid b \\), then lemma 2 tells us that \\( a^n \nmid b^n \\), this contradicts our initial assumption. \\( \Box \\)
+
