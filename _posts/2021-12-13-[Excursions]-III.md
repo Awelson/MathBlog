@@ -53,7 +53,7 @@ Now let us prove the next lemma,
 
 > Lemma 2. If \\( a\nmid b \\), then \\( a^n \nmid b^n \\) where \\( n\in \mathbb{N} \\).
 
-Proof. By lemma 1, we know that there exists a prime number \\( p \\) and a positive integer \\( t \\) such that \\( p^t\mid a \\) and \\( p^t \nmid b \\). Clearly \\( p^{tn} \mid a^n \\), now suppose \\( p^{tn} \mid b^n \\), then \\( b^n=kp^{tn} \\) for some \\( k \\). If \\( b \\) has the decomposition
+Proof. By lemma 1, we know that there exists a prime number \\( p \\) and a positive integer \\( t \\) such that \\( p^t\mid a \\) and \\( p^t \nmid b \\). Clearly \\( p^{tn} \mid a^n \\), now suppose \\( p^{tn} \mid b^n \\), then \\( b^n=kp^{tn} \\) for some \\( k\in \mathbb{N} \\). If \\( b \\) has the decomposition
 
 \\[ b=p_1^{\alpha_1}p_2^{\alpha_2}\cdots p_r^{\alpha_r} \tag{4}\\]
 
@@ -67,7 +67,7 @@ Since the decomposition is unique, this means that one of \\( p_1,p_2,\ldots, p_
 
 so \\( t\leq \alpha_1 \\). Then, \\( p^t\mid p_1^{\alpha_1} \mid b \\), is a contradiction, thus, \\( p^{tn} \nmid b^n \\).
 
-\\( a^n \mid b^n \\) is impossible because \\( p^{tn} \mid a^n \\) and \\( \mid \\) is transitive. Thus we must have \\( a^n \nmid b^n \\) as desired.
+\\( a^n \mid b^n \\) is impossible because \\( p^{tn} \mid a^n \\) and \\( \mid \\) is transitive. Thus we must have \\( a^n \nmid b^n \\) as desired. \\( \Box \\)
 
 > Theorem 3. Let \\( n\in \mathbb{N} \\), if \\( a^n \mid b^n \\), then \\( a\mid b \\). 
 
@@ -83,4 +83,4 @@ Proof. If \\( x^{1/y} \\) is neither irrational nor an integer then we can write
 
 is a contradiction. Lemma 2 tells us that \\( a^y \\) does not divide \\( b^y \\) so the far right hand side is not a whole number (while the far left hand side clearly is). \\( \Box \\)
 
-Since \\( \sqrt{2} \\) is clearly not an integer, theorem 4 gives us a proof that \\( \sqrt{2} \\) is irrational, one that is different from the classic proof by contradiction.
+Since \\( \sqrt{2} \\) is clearly not an integer, theorem 4 gives us a proof that \\( \sqrt{2} \\) is irrational, one that is different from the classic proof by contradiction that you probably already know of.
