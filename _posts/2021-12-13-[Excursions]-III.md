@@ -41,7 +41,7 @@ Kwan wishes to prove that there exists an \\( m_{k+1}\in \mathbb{N} \\) for whic
 
 \\[ b=m_{k+1}p_{k+1}^{\alpha_{k+1}}p_k^{\alpha_k}\cdots p_1^{\alpha_1} \tag{2}. \\]
 
-He knows that \\( p_{k+1}^{\alpha_{k+1}} \mid b=m_kp_k^{\alpha_k}p_{k-1}^{\alpha_{k-1}}\cdots p_1^{\alpha_1} \\), so it must be that \\( p_{k+1}^{\alpha_{k+1}} \mid m_k \\). This means that there exists a number \\( m_{k+1}\in \mathbb{N} \\) such that \\( m_k=m_{k+1}p_{k+1}^{\alpha_{k+1}} \\). Thus we obtain (2) as desired.
+He knows that \\( p_{k+1}^{\alpha_{k+1}} \mid m_kp_k^{\alpha_k}p_{k-1}^{\alpha_{k-1}}\cdots p_1^{\alpha_1}=b \\), so it must be that \\( p_{k+1}^{\alpha_{k+1}} \mid m_k \\). This means that there exists a number \\( m_{k+1}\in \mathbb{N} \\) such that \\( m_k=m_{k+1}p_{k+1}^{\alpha_{k+1}} \\). Thus we obtain (2) as desired.
 
 This inductive reasoning allows us to conclude that 
 
