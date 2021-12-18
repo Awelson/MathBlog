@@ -33,7 +33,7 @@ By FTA, Kwan can decompose \\( a \\) into a product of prime powers. Suppose
 
 \\[ a=p_1^{\alpha_1}p_2^{\alpha_2}\cdots p_r^{\alpha_r} \tag{1}\\]
 
-It is clear that \\( p_k^{\alpha_k} \mid a, \ (k=1,2,\ldots,r) \\), thus Kwan concludes that \\( p_k^{\alpha_k} \mid b, \ (k=1,2,\ldots,r) \\). The next step is inductive, since \\( p_1^{\alpha_1} \mid b \\), there exists a number \\( m_1\in \mathbb{N} \\) such that \\( b=m_1p_1^{\alpha_1} \\), this is the base case, now suppose that for some \\( k=1,2,\ldots,r-1 \\) there exists an \\( m_k\in \mathbb{N} \\) for which 
+Kwan notices that \\( p_k^{\alpha_k} \mid a, \ (k=1,2,\ldots,r) \\), thus he concludes that \\( p_k^{\alpha_k} \mid b, \ (k=1,2,\ldots,r) \\). The next step is inductive, since \\( p_1^{\alpha_1} \mid b \\), there exists a number \\( m_1\in \mathbb{N} \\) such that \\( b=m_1p_1^{\alpha_1} \\), this is the base case, now suppose that for some \\( k=1,2,\ldots,r-1 \\) there exists an \\( m_k\in \mathbb{N} \\) for which 
 
 \\[ b=m_kp_k^{\alpha_k}p_{k-1}^{\alpha_{k-1}}\cdots p_1^{\alpha_1}. \\] 
 
@@ -43,7 +43,11 @@ Kwan wishes to prove that there exists an \\( m_{k+1}\in \mathbb{N} \\) for whic
 
 He knows that \\( p_{k+1}^{\alpha_{k+1}} \mid b=m_kp_k^{\alpha_k}p_{k-1}^{\alpha_{k-1}}\cdots p_1^{\alpha_1} \\), so it must be that \\( p_{k+1}^{\alpha_{k+1}} \mid m_k \\). This means that there exists a number \\( m_{k+1}\in \mathbb{N} \\) such that \\( m_k=m_{k+1}p_{k+1}^{\alpha_{k+1}} \\). Thus we obtain (2) as desired.
 
+This inductive reasoning allows us to conclude that 
 
+\\[ b=m_rp_r^{\alpha_r}p_{r-1}^{\alpha_{r-1}}\cdots p_1{\alpha_1} \tag{3} \\]
+
+comparing (1) and (3), it is easy to see that \\( a \mid b \\) but this is a contradiction, just as we need. \\( \Box \\)
 
 Now let us prove the next lemma,
 
@@ -51,7 +55,7 @@ Now let us prove the next lemma,
 
 Proof. By lemma 1, we know that there exists a prime number \\( p \\) and a positive integer \\( t \\) such that \\( p^t\mid a \\) and \\( p^t \nmid b \\). Clearly \\( p^{tn} \mid a^n \\), now suppose \\( p^{tn} \mid b^n \\), then \\( b^n=kp^{tn} \\) for some \\( k \\). If \\( b \\) has the decomposition
 
-\\[ b=p_1^{\alpha_1}p_2^{\alpha_2}\cdots p_r^{\alpha_r} \tag{3}\\]
+\\[ b=p_1^{\alpha_1}p_2^{\alpha_2}\cdots p_r^{\alpha_r} \tag{4}\\]
 
 then the unique decomposition of \\( b^n \\) is
 
